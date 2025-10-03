@@ -1,3 +1,21 @@
 #map { height: 800px }
 
+.leaflet-control-custom {
+    background-color: #333;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transition: background-color 0.2s ease;
+}
+
+.leaflet-control-custom:hover {
+    background-color: #555;
+}
 
